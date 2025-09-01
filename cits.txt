@@ -1,0 +1,244 @@
+@inproceedings{Martin2006AGM,
+  title={A GENERAL MULTIVARIATE EXTENSION OF FISHER'S GEOMETRICAL MODEL AND THE DISTRIBUTION OF MUTATION FITNESS EFFECTS ACROSS SPECIES},
+  author={Guillaume Martin and Thomas Lenormand},
+  booktitle={Evolution; international journal of organic evolution},
+  year={2006},
+  url={https://api.semanticscholar.org/CorpusID:15782374}
+}
+
+@article{Gokhman2025PredictingTD,
+  title={Predicting the direction of phenotypic difference},
+  author={David Gokhman and Keith D. Harris and Shai Carmi and Gili Greenbaum},
+  journal={Nature Communications},
+  year={2025},
+  volume={16},
+  url={https://api.semanticscholar.org/CorpusID:280317455}
+}
+
+@article{Matz2020EstimatingTP,
+  title={Estimating the potential for coral adaptation to global warming across the Indo‐West Pacific},
+  author={Mikhail V. Matz and Eric A. Treml and Benjamin C. Haller},
+  journal={Global Change Biology},
+  year={2020},
+  volume={26},
+  pages={3473 - 3481},
+  url={https://api.semanticscholar.org/CorpusID:215759815}
+}
+
+@article{Saatoglu2024TheGB,
+  title={The genetic basis of dispersal in a vertebrate metapopulation},
+  author={Dilan Saatoglu and Sarah L Lundregan and Evelyn Alexandra Fetterplace and Debora Goedert and Arild Husby and Alina Katariina Niskanen and Stefanie Muff and Henrik Jensen},
+  journal={Molecular Ecology},
+  year={2024},
+  volume={33},
+  url={https://api.semanticscholar.org/CorpusID:267850381}
+}
+
+@article{Gage2020TenYO,
+  title={Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions[OPEN]},
+  author={Joseph L. Gage and Brandon Monier and Anju Giri and Edward S. Buckler},
+  journal={Plant Cell},
+  year={2020},
+  volume={32},
+  pages={2083 - 2093},
+  url={https://api.semanticscholar.org/CorpusID:218619160}
+}
+
+@article{Vaishnav2022TheEE,
+  title={The evolution, evolvability and engineering of gene regulatory DNA},
+  author={Eeshit Dhaval Vaishnav and Carl G. de Boer and Jennifer Molinet and Moran Yassour and Lin Fan and Xian Adiconis and Dawn-Anne Thompson and Joshua Z. Levin and Francisco A. Cubillos and Aviv Regev},
+  journal={Nature},
+  year={2022},
+  volume={603},
+  pages={455 - 463},
+  url={https://api.semanticscholar.org/CorpusID:247361724}
+}
+
+@article{Bellomo2013ONTD,
+  title={ON THE DIFFICULT INTERPLAY BETWEEN LIFE, "COMPLEXITY", AND MATHEMATICAL SCIENCES},
+  author={Nicola Bellomo and Dami{\'a}n A. Knopoff and Juan Soler},
+  journal={Mathematical Models and Methods in Applied Sciences},
+  year={2013},
+  volume={23},
+  pages={1861-1913},
+  url={https://api.semanticscholar.org/CorpusID:122211010}
+}
+
+@article{RazoMejia2025LearningTS,
+  title={Learning the Shape of Evolutionary Landscapes: Geometric Deep Learning Reveals Hidden Structure in Phenotype-to-Fitness Maps},
+  author={Manuel Razo-Mejia and Madhav Mani and Dmitri A. Petrov},
+  journal={bioRxiv},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:278429636}
+}
+
+@article{Kaznatcheev2024ExponentialSA,
+  title={Exponential Steepest Ascent from Valued Constraint Graphs of Pathwidth Four},
+  author={Artem Kaznatcheev and Melle van Marle},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2405.12906},
+  url={https://api.semanticscholar.org/CorpusID:269930390}
+}
+
+@article{Sudakow2024EvolutionOB,
+  title={Evolution of biological cooperation: an algorithmic approach},
+  author={Ivan Sudakow and John Reinitz and S A Vakulenko and Dima Grigoriev},
+  journal={Scientific Reports},
+  year={2024},
+  volume={14},
+  url={https://api.semanticscholar.org/CorpusID:267030461}
+}
+
+@article{Sheehan2025LinkingIF,
+  title={Linking individual fitness to the evolution of cognition.},
+  author={Michael J. Sheehan and Sara E Miller},
+  journal={Philosophical transactions of the Royal Society of London. Series B, Biological sciences},
+  year={2025},
+  volume={380 1929},
+  pages={
+          20240122
+        },
+  url={https://api.semanticscholar.org/CorpusID:279600339}
+}
+
+@article{Bonanno2021TheRP,
+  title={The resilience paradox},
+  author={George A. Bonanno},
+  journal={European Journal of Psychotraumatology},
+  year={2021},
+  volume={12},
+  url={https://api.semanticscholar.org/CorpusID:235820523}
+}
+
+@article{Zhou2024DrivingMF,
+  title={Driving mechanisms for the adaptation and degradation of petroleum hydrocarbons by native microbiota from seas prone to oil spills.},
+  author={Yumiao Zhou and Ying Wang and Shudi Yao and Xinyu Zhao and Qiang Kong and Lihua Cui and Huanxin Zhang},
+  journal={Journal of hazardous materials},
+  year={2024},
+  volume={476},
+  pages={
+          135060
+        },
+  url={https://api.semanticscholar.org/CorpusID:270807720}
+}
+
+@article{Sudakow2024NewSM,
+  title={New spin models in ecology: Super multi-stationarity and chaos},
+  author={Ivan Sudakow and S A Vakulenko},
+  journal={Chaos, Solitons \& Fractals},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:269997614}
+}
+
+@article{Sowinski2024InformationtheoreticDO,
+  title={Information-theoretic description of a feedback-control Kuramoto model},
+  author={Damian R. Sowinski and Adam Frank and Gourab Ghoshal},
+  journal={Physical Review Research},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:268875855}
+}
+
+@article{DePristo2005MissenseMI,
+  title={Missense meanderings in sequence space: a biophysical view of protein evolution},
+  author={Mark A. DePristo and Daniel M. Weinreich and Daniel L. Hartl},
+  journal={Nature Reviews Genetics},
+  year={2005},
+  volume={6},
+  pages={678-687},
+  url={https://api.semanticscholar.org/CorpusID:13236893}
+}
+
+@article{Bomblies2022GeneticsOA,
+  title={Genetics of adaptation},
+  author={Kirsten Bomblies and Catherine L. Peichel},
+  journal={Proceedings of the National Academy of Sciences of the United States of America},
+  year={2022},
+  volume={119},
+  url={https://api.semanticscholar.org/CorpusID:250655767}
+}
+
+@article{Reddy2020GlobalEE,
+  title={Global epistasis emerges from a generic model of a complex trait},
+  author={Gautam Reddy and Michael M. Desai},
+  journal={eLife},
+  year={2020},
+  volume={10},
+  url={https://api.semanticscholar.org/CorpusID:219947102}
+}
+
+@article{Twining2020TheEE,
+  title={The evolutionary ecology of fatty-acid variation: Implications for consumer adaptation and diversification.},
+  author={Cornelia Wingfield Twining and Joey R. Bernhardt and Alison Margaret Derry and Cameron M. Hudson and Asano Ishikawa and Naoki Kabeya and Martin J. Kainz and Jun Kitano and Carmen Kowarik and Sarah Nemiah Ladd and Miguel Costa Leal and Kristin Scharnweber and Jeremy Ryan Shipley and Blake Matthews},
+  journal={Ecology letters},
+  year={2020},
+  url={https://api.semanticscholar.org/CorpusID:225115056}
+}
+
+@article{Kashtan2007VaryingEC,
+  title={Varying environments can speed up evolution},
+  author={Nadav Kashtan and Elad Noor and Uri Alon},
+  journal={Proceedings of the National Academy of Sciences},
+  year={2007},
+  volume={104},
+  pages={13711 - 13716},
+  url={https://api.semanticscholar.org/CorpusID:17088453}
+}
+
+@article{Ma2024RapidAR,
+  title={Rapid and Repeated Climate Adaptation Involving Chromosome Inversions following Invasion of an Insect},
+  author={Li-Jun Ma and Li-Jun Cao and Jin-Cui Chen and Meng-Qing Tang and Wei Song and Fangyuan Yang and Xiu-Jing Shen and Ya-Jing Ren and Qiong Yang and Hu Li and Ary Anthony Hoffmann and Shujun Wei},
+  journal={Molecular Biology and Evolution},
+  year={2024},
+  volume={41},
+  url={https://api.semanticscholar.org/CorpusID:267889108}
+}
+
+@article{Oyibo2024ComTechTA,
+  title={ComTech: Towards a unified taxonomy of persuasive techniques for persuasive technology design},
+  author={Kiemute Oyibo},
+  journal={Computers in Human Behavior Reports},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:267177135}
+}
+
+@article{Zhang2024TemporalGI,
+  title={Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution},
+  author={Xiao Zhang and Mark Blaxter and Jonathan M. D. Wood and Alan Tracey and Shane A. McCarthy and Peter Thorpe and Jack G. Rayner and Shangzhe Zhang and Kirstin L Sikkink and Susan Balenger and Nathan W. Bailey},
+  journal={Nature Communications},
+  year={2024},
+  volume={15},
+  url={https://api.semanticscholar.org/CorpusID:270438246}
+}
+
+@article{Schneider2024BehaviouralPC,
+  title={Behavioural plasticity compensates for adaptive loss of cricket song.},
+  author={Will T Schneider and Christian Rutz and Nathan W. Bailey},
+  journal={Ecology letters},
+  year={2024},
+  volume={27 3},
+  pages={
+          e14404
+        },
+  url={https://api.semanticscholar.org/CorpusID:268666360}
+}
+
+@article{Orteu2020TheGO,
+  title={The genomics of coloration provides insights into adaptive evolution},
+  author={Anna Orteu and Chris D. Jiggins},
+  journal={Nature Reviews Genetics},
+  year={2020},
+  volume={21},
+  pages={461 - 475},
+  url={https://api.semanticscholar.org/CorpusID:218531271}
+}
+
+@article{Goldenfeld2010LifeIP,
+  title={Life is Physics: Evolution as a Collective Phenomenon Far From Equilibrium},
+  author={Nigel Goldenfeld and Carl R. Woese},
+  journal={Annual Review of Condensed Matter Physics},
+  year={2010},
+  volume={2},
+  pages={375-399},
+  url={https://api.semanticscholar.org/CorpusID:19019466}
+}
