@@ -40,8 +40,8 @@ def resolve_one_url(url: str, api_key: str) -> Optional[str]:
         print(f"Could not extract paper ID from URL: {url}")
         return None
     
-    # Semantic Scholar API endpoint
-    api_url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
+    # Semantic Scholar API endpoint - use CorpusId: prefix
+    api_url = f"https://api.semanticscholar.org/graph/v1/paper/CorpusId:{paper_id}"
     
     # Request parameters - only request the DOI field
     params = {
@@ -55,6 +55,12 @@ def resolve_one_url(url: str, api_key: str) -> Optional[str]:
     
     try:
         response = requests.get(api_url, params=params, headers=headers)
+        
+        # Handle rate limiting
+        if response.status_code == 429:
+            print(f"Rate limit reached for paper ID {paper_id}. Consider adding API key or increasing delay.")
+            return None
+            
         response.raise_for_status()
         
         data = response.json()
@@ -69,6 +75,12 @@ def resolve_one_url(url: str, api_key: str) -> Optional[str]:
             print(f"No DOI found for paper ID: {paper_id}")
             return None
             
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 404:
+            print(f"Paper not found for ID {paper_id}")
+        else:
+            print(f"HTTP error for paper ID {paper_id}: {e}")
+        return None
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data for paper ID {paper_id}: {e}")
         return None
@@ -110,8 +122,12 @@ def process_file(filename: str, api_key: str) -> List[str]:
             
             # Rate limiting - be respectful to the API
             # Semantic Scholar allows 100 requests per 5 minutes for free tier
+            # Without API key, the rate limit is much lower
             if i < len(urls):  # Don't sleep after the last request
-                time.sleep(0.5)  # 500ms delay between requests
+                if api_key:
+                    time.sleep(1)  # 1 second delay with API key
+                else:
+                    time.sleep(3)  # 3 seconds delay without API key
                 
     except FileNotFoundError:
         print(f"Error: File '{filename}' not found")
@@ -127,9 +143,12 @@ def main():
     api_key = os.getenv('API_KEY')
     
     if not api_key:
-        print("Error: API_KEY not found in environment variables")
-        print("Please ensure you have a .env file with API_KEY=your_key_here")
-        return
+        print("Warning: API_KEY not found in environment variables")
+        print("The program will run without an API key, but may face severe rate limiting.")
+        print("To get better performance, create a .env file with API_KEY=your_key_here")
+        print("Get your free API key at: https://www.semanticscholar.org/product/api")
+        print("\nContinuing without API key...\n")
+        api_key = None  # Explicitly set to None
     
     # Process the citations file
     citations_file = 'cits.txt'
