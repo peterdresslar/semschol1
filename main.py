@@ -1,6 +1,7 @@
 import os
 import re
 import time
+import sys
 from typing import Optional, List
 import requests
 from dotenv import load_dotenv
@@ -125,7 +126,7 @@ def process_file(filename: str, api_key: str) -> List[str]:
             # Without API key, the rate limit is much lower
             if i < len(urls):  # Don't sleep after the last request
                 if api_key:
-                    time.sleep(1)  # 1 second delay with API key
+                    time.sleep(1.5)  # 1 second delay with API key
                 else:
                     time.sleep(3)  # 3 seconds delay without API key
                 
@@ -150,8 +151,9 @@ def main():
         print("\nContinuing without API key...\n")
         api_key = None  # Explicitly set to None
     
-    # Process the citations file
-    citations_file = 'cits.txt'
+    # get citations filename from args
+    citations_file = sys.argv[1]
+    # citations_file = 'cits.txt'
     dois = process_file(citations_file, api_key)
     
     # Output results
